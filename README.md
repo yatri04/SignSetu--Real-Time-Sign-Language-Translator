@@ -1,5 +1,5 @@
-# 🤟 SignSetu — Real-Time Sign Language Translator
-**SGP Project — Proposed System Architecture and Development Plan**
+# 🤟 SignSetu - Real-Time Sign Language Translator
+**SGP Project - Proposed System Architecture and Development Plan**
 >
 > SignSetu is a planned real-time computer vision and deep learning system that aims to recognize hand signs from a live camera feed and convert them into readable text.
 
@@ -11,7 +11,6 @@
 |---|---|
 | Problem identification | ✅ Completed |
 | Project concept | ✅ Decided |
-| Initial research / reference study | ✅ Completed |
 | Dataset selection | ✅ Planned / selected |
 | System architecture | ✅ Designed |
 | Model architecture | ✅ Proposed |
@@ -71,7 +70,7 @@ The major objectives of SignSetu are:
 
 The system will be divided into two major stages.
 
-### Stage 1 — Model Development
+### Stage 1 - Model Development
 
 The model will learn the relationship between hand-sign images and their corresponding labels.
 
@@ -95,7 +94,7 @@ Validation
 Final Evaluation
 ```
 
-### Stage 2 — Real-Time Recognition
+### Stage 2 - Real-Time Recognition
 
 The trained model will then be connected to a webcam.
 
@@ -424,7 +423,7 @@ Responsible for:
 
 The project will be implemented incrementally.
 
-### Phase 1 — Dataset Analysis
+### Phase 1 - Dataset Analysis
 
 - Download/prepare the selected dataset.
 - Explore class distribution.
@@ -432,28 +431,28 @@ The project will be implemented incrementally.
 - Check image dimensions and quality.
 - Identify potential dataset imbalance.
 
-### Phase 2 — Preprocessing
+### Phase 2 - Preprocessing
 
 - Implement train/validation/test split.
 - Implement resizing and normalization.
 - Test augmentation strategies.
 - Create DataLoaders.
 
-### Phase 3 — Baseline Model
+### Phase 3 - Baseline Model
 
 - Implement a basic CNN or initial ResNet18 configuration.
 - Train on the dataset.
 - Record training/validation loss.
 - Record accuracy.
 
-### Phase 4 — Transfer Learning
+### Phase 4 - Transfer Learning
 
 - Load pretrained ResNet18.
 - Replace classification head.
 - Fine-tune on sign-language data.
 - Compare performance with the baseline.
 
-### Phase 5 — Model Evaluation
+### Phase 5 - Model Evaluation
 
 Generate:
 
@@ -465,7 +464,7 @@ Generate:
 - Training/validation curves
 - Sample predictions
 
-### Phase 6 — Real-Time Integration
+### Phase 6 - Real-Time Integration
 
 - Connect webcam using OpenCV.
 - Detect hand using MediaPipe.
@@ -473,14 +472,14 @@ Generate:
 - Pass processed image to the trained model.
 - Display predicted sign.
 
-### Phase 7 — Optimization
+### Phase 7 - Optimization
 
 - Reduce inference latency.
 - Improve preprocessing.
 - Test different lighting/background conditions.
 - Evaluate generalization to unseen users.
 
-### Phase 8 — Final System
+### Phase 8 - Final System
 
 Integrate:
 
