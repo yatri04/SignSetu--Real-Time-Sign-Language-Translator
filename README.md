@@ -124,7 +124,7 @@ Text Display
 
 ## Initial Dataset Decision
 
-The reference implementation studied for this project uses the **ASL Alphabet Dataset** from Kaggle.
+For this project the considered dataset is **ASL Alphabet Dataset** from Kaggle.
 https://www.kaggle.com/datasets/grassknoted/asl-alphabet
 The dataset contains:
 
@@ -134,7 +134,6 @@ The dataset contains:
 - Static hand-sign images
 - Controlled/relatively plain backgrounds
 
-`grassknoted/asl-alphabet`
 
 ---
 
@@ -266,7 +265,6 @@ For example, a model trained on images with relatively simple backgrounds may pe
 
 To reduce this problem, SignSetu plans to use **MediaPipe Hand Landmarker / hand detection** before classification.
 
-The reference project uses MediaPipe to detect a hand and obtain **21 hand landmarks**.
 
 ### Proposed pipeline
 
